@@ -105,3 +105,30 @@ button {
   font-weight: 900;
   margin: 50px 0;
 }
+
+.section-three {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 140px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  margin-right: 43px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.quote-container {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+}
