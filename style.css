@@ -64,13 +64,22 @@ a,
 }
 
 button {
-  background-color: #3882F6;
-  color: white;
   padding: 10px 40px;
-  border: none;
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
+  color: white;
+}
+
+.button-one {
+  background-color: #3882F6;
+  border: none;
+}
+
+.button-two {
+  background-color: #3882F6;
+  border: 2px solid white;
+  align-self: flex-end;
 }
 
 .section-two {
@@ -131,4 +140,29 @@ button {
   width: 830px;
   display: flex;
   flex-direction: column;
+}
+
+.section-four {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.call-container {
+  background-color: #3882F6;
+  display: flex;
+  padding: 60px 150px;
+  width: 900px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.call-header {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.call-text {
+  font-size: 16px;
 }
